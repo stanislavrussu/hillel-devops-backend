@@ -2,7 +2,7 @@ pipeline{
     agent any
 
     environment {
-        ECR_URL = '971045967877.dkr.ecr.us-east-1.amazonaws.com.stanislav.stanislav-tiab-tech-conduit'
+        ECR_URL = '971045967877.dkr.ecr.us-east-1.amazonaws.com.stanislav-tiab-tech-conduit'
         ECR_URI = '971045967877.dkr.ecr.us-east-1.amazonaws.com'
         CLUSTER_NAME = 'stanislav-tiab-tech'
         ECS_SERVICE_NAME = 'conduit'
